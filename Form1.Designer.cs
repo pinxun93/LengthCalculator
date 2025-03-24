@@ -126,6 +126,7 @@ namespace LengthCalculator
             this.btnAllClear.TabIndex = 7;
             this.btnAllClear.Text = "清除";
             this.btnAllClear.UseVisualStyleBackColor = false;
+            this.btnAllClear.Click += new System.EventHandler(this.btnAllClear_Click_1);
             // 
             // txtInfo
             // 
